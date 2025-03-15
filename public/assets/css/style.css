@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navstyle{
+    background-image: linear-gradient(to right, green, #65a465);
+     padding: 15px 0;
+}
+.navbar .log-in {
+    text-decoration: none;
+    color: green;
+    background-color: transparent;
+    padding: 6px 12px;
+    border: 2px solid green;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .log-in:hover {
+    background-color: green;
+    color: white;
+}
+
+.navbar .sign-up {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 2px solid green;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .sign-up:hover {
+    color: green;
+    background-color: transparent;
+    border: 2px solid green;
+}
+.cont{
+    background-color: rgba(128, 128, 128, 0.089);
+}
+.rescue-btn {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    font-size: 35px;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+.rescue-btn:hover {
+    background-color: white;
+    color: green;
+    border-color: green;
+}
+.donate{
+background-color:rgba(128, 128, 128, 0.137);
+}
+
+.card {
+    width: 220px;
+    padding: 8px;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.donate-btn {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 8px; 
+    width: auto; 
+    margin: 8px 0;
+    text-align: center;
+    height: 40px; 
+}
+
+.donate-btn:hover{
+    color: green;
+    background-color: white;
+}
+.card:hover{
+    -webkit-box-shadow: 10px 1px 30px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 1px 30px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 1px 30px -8px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    width: 225px;
+}
+.card-body p {
+    margin-bottom: 4px;
+  }
+  .shelters{
+    background-color:rgba(128, 128, 128, 0.137);
+  }
+.store{
+   margin: 15px; 
+   border-radius: 50%;
+   -webkit-box-shadow: 10px 10px 18px -8px rgba(0,0,0,0.75);
+ -moz-box-shadow: 10px 10px 18px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 18px -8px rgba(0,0,0,0.75);
+}
+.store:hover{
+    -webkit-box-shadow: 10px 10px 29px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 29px 6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 29px 6px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.store-view {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    padding: 8px 16px;  
+    text-align: center;
+    display: inline-block; 
+    text-decoration: none;
+}
+
+.store-view:hover {
+    color: green;
+    background-color: white; 
+    border-color: darkgreen; 
+}
+.store-wrapper .store:hover {
+    -webkit-box-shadow: 10px 1px 30px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 1px 30px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 1px 30px -8px rgba(0, 0, 0, 0.75);
+}
+.footer a{
+    text-decoration: none;
+}
